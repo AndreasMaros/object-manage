@@ -1,5 +1,9 @@
-object-manage [![Build Status](https://travis-ci.org/nullivex/object-manage.png?branch=master)](https://travis-ci.org/nullivex/object-manage)
+object-manage
 =============
+
+_NB_ This is a fork of object-manage without the fancy redis storage option, since
+that is heavily dependent on node.js core modules and is prone to break builds
+in browser environments.
 
 A library for managing javascript objects and offering common getter, setter, merge support.
 
